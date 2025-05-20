@@ -5,15 +5,14 @@ package S04WC;
  * @since 4/9/25
  */
 
-class Pet
-{
+class Pet {
     private String name;
     private int age;
     private double weight;
     private String type;
     private String breed;
 
-    public Pet(String name, int age, double weight, String type, String breed){
+    public Pet(String name, int age, double weight, String type, String breed) {
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -28,7 +27,6 @@ class Pet
     public void setName(String name) {
         this.name = name;
     }
-
 
     public int getAge() {
         return age;
@@ -75,10 +73,9 @@ class Pet
     }
 
 }
-class TesterClass
-{
-    public static void main(String[] args)
-    {
+
+class TesterClass2 {
+    public static void main(String[] args) {
         Pet pet1 = new Pet("bob", 30, 0.05, "dog", "german shepard");
         Pet pet2 = new Pet("Bobby", 50, 35.02, "cat", "Calico");
 
